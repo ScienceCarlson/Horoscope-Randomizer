@@ -1,0 +1,15 @@
+body {
+    font-family: Roboto;    
+}
+.submitted {
+    color: #808080;
+}
+.hidden {
+    display: none;
+}
+.correct {
+    background-color: lime
+}
+.incorrect {
+    background-color: red
+}
