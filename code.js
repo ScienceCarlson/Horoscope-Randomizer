@@ -1,7 +1,7 @@
 var zodiacsigns = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
 var allhoroscopes = [];
 //This is a dummy setlist to make entry faster. When the code is live, this variable will be commented out
-var allhoroscopes = ["This is the Aries Horoscope", "This is the Taurus Horoscope", "This is the Gemini Horoscope", "This is the Cancer Horoscope", "This is the Leo Horoscope", "This is the Virgo Horoscope", "This is the Libra Horoscope", "This is the Scorpio Horoscope", "This is the Sagittarius Horoscope", "This is the Capricorn Horoscope", "This is the Aquarius Horoscope", "This is the Pisces Horoscope"];
+//var allhoroscopes = ["This is the Aries Horoscope", "This is the Taurus Horoscope", "This is the Gemini Horoscope", "This is the Cancer Horoscope", "This is the Leo Horoscope", "This is the Virgo Horoscope", "This is the Libra Horoscope", "This is the Scorpio Horoscope", "This is the Sagittarius Horoscope", "This is the Capricorn Horoscope", "This is the Aquarius Horoscope", "This is the Pisces Horoscope"];
 var i = 0;
 var text = "";
 var j = 0;
