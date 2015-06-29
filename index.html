@@ -1,0 +1,69 @@
+<title>Horoscope Randomizer</title>
+<body>
+    <div id="inputter">
+         <h1>Horoscope Randomizer</h1>
+
+        <p>Enter <strong><span id="all-signs">Aries</span></strong> horoscope: (number <span id="spannumber">1</span> of 12 entries)</p>
+        <textarea cols="50" rows="5" id="inputtext"></textarea>
+        <br>
+        <input type="button" value="Submit" onclick="submitHoroscope()" />
+        </br>
+        <p>Submitted Signs:
+            <br>
+        </p>
+        <p id="listofsigns" class="submitted"></p>
+    </div>
+    <div id="enteryoursign" class="hidden">
+        <p>Select YOUR Zodiac sign:</p>
+        <select name="enteredsign" id="selectedsign">
+            <option value="Aries">Aries</option>
+            <option value="Taurus">Taurus</option>
+            <option value="Gemini">Gemini</option>
+            <option value="Cancer">Cancer</option>
+            <option value="Leo">Leo</option>
+            <option value="Virgo">Virgo</option>
+            <option value="Libra">Libra</option>
+            <option value="Scorpio">Scorpio</option>
+            <option value="Sagittarius">Sagittarius</option>
+            <option value="Capricorn">Capricorn</option>
+            <option value="Aquarius">Aquarius</option>
+            <option value="Pisces">Pisces</option>
+        </select>
+        <input type="button" value="Submit" onclick="submitOwnZodiacSign()"></input>
+        <p id="demo"></p>
+    </div>
+    <div id="findyourhoroscope" class="hidden">
+         <h2>Find the <span id="yourentry"></span> horoscope:</h2>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Aries"><span id="Aries"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Taurus"><span id="Taurus"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Gemini"><span id="Gemini"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Cancer"><span id="Cancer"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Leo"><span id="Leo"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Virgo"><span id="Virgo"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Libra"><span id="Libra"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Scorpio"><span id="Scorpio"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Sagittarius"><span id="Sagittarius"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Capricorn"><span id="Capricorn"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Aquarius"><span id="Aquarius"><br></span>
+
+        <input type="radio" name="sign" onclick="check(this.value)" value="Pisces"><span id="Pisces"><br></span>
+
+        <input type="button" value="Submit" onclick="checkAnswer()" />
+        <br>
+    </div>
+    <div id="checkanswer" class="hidden">
+        <p id="displayresults"></p>
+        <p id="displayrightorwrong"></p>
+    </div>
+</body>
